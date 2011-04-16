@@ -1,17 +1,17 @@
-(setq user-mail-address "fidelramos@gmail.com")
-(setq user-full-name "Fidel Ramos Sañudo")
+(setq user-mail-address "pablo.recioquijano@gmail.com")
+(setq user-full-name "Pablo Recio Quijano")
 
-(setq org-agenda-files (list "~/org/personal.org"
-                             "~/org/work.org"
-                             "~/org/projects.org"
-                             "~/org/anniversaries.org"))
+;;(setq org-agenda-files (list "~/org/personal.org"
+;;                             "~/org/work.org"
+;;                             "~/org/projects.org"
+;;                             "~/org/anniversaries.org"))
 
 (eval-after-load "color-theme"
   '(progn
      (color-theme-initialize)
-     (color-theme-dark-laptop)))
+     (color-theme-comidia)))
 
-(setq-default erc-email-userid "Haplo")
-(setq-default erc-nick "Haplo")
+(setq-default erc-email-userid "pyriku")
+(setq-default erc-nick "pyriku")
 ; (setq-default erc-nickserv-passwords '((freenode (("nick" . "password")))))
-(setq-default erc-user-full-name "Fidel Ramos")
+; (setq-default erc-user-full-name "Fidel Ramos")
